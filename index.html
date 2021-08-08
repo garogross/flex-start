@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex start</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/efc205dbd7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- !navbar -->
+
+    <nav class="navbar"
+    data-aos="fade-down"
+    >
+      <div class="navbar-content container">
+        <div class="logo-div">
+          <img src="./img/logo.png" alt="Logo" />
+          <a href="index.html">FlexStart</a>
+        </div>
+        <div class="nav-menu">
+          <a class="nav-links  active" href="#header">Home</a>
+          <a class="nav-links" href="#about">About</a>
+          <a class="nav-links" href="#services">Services</a>
+          <a class="nav-links" href="#portfolio">Portfolio</a>
+          <a class="nav-links" href="#team">Team</a>
+          <a class="nav-links" href="#blog">Blog</a>
+          <div class="dropdown">
+            <a href="#" class="drop-btn">
+              Drop Down
+              <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Drop Down 1</a>
+              <div class="deep-dropdown">
+                <a href="#" class="deep-dropbtn">
+                  Deep Drop Down
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+                <div class="deep-dropdown-content">
+                  <a href="#">Deep Drop Down 1</a>
+                  <a href="#">Deep Drop Down 2</a>
+                  <a href="#">Deep Drop Down 3</a>
+                  <a href="#">Deep Drop Down 4</a>
+                  <a href="#">Deep Drop Down 5</a>
+                </div>
+                <a href="#">Drop Down 2</a>
+                <a href="#">Drop Down 3</a>
+                <a href="#">Drop Down 4</a>
+              </div>
+            </div>
+          </div>
+          <a class="nav-links" href="#contact">Contact</a>
+          <button class="btn-3 get-started-btn">Get Started</button>
+        </div>
+        <div class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- !hidden menu -->
+
+    <div class="hidden-menu-container hidden">
+      <a href="#" class="menu-close-icon">
+        <i class="fas fa-times"></i>
+      </a>
+      <div class="hidden-menu">
+        <a href="#header" class="active nav-links">Home</a>
+        <a href="#about" class="nav-links">About</a>
+        <a href="#services" class="nav-links">Services</a>
+        <a href="#portfolio" class="nav-links">Portfolio</a>
+        <a href="#team" class="nav-links">Team</a>
+        <a href="#blog" class="nav-links">Blog</a>
+        <div class="dropdown">
+          <a href="#" class="drop-btn">
+            Drop Down
+            <i class="fas fa-chevron-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">Drop Down 1</a>
+            <div class="deep-dropdown">
+              <a href="#" class="deep-dropbtn">
+                Deep Drop Down
+                <i class="fas fa-chevron-right"></i>
+              </a>
+              <div class="deep-dropdown-content">
+                <a href="#">Deep Drop Down 1</a>
+                <a href="#">Deep Drop Down 2</a>
+                <a href="#">Deep Drop Down 3</a>
+                <a href="#">Deep Drop Down 4</a>
+                <a href="#">Deep Drop Down 5</a>
+              </div>
+              <a href="#">Drop Down 2</a>
+              <a href="#">Drop Down 3</a>
+              <a href="#">Drop Down 4</a>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="nav-links">Contact</a>
+      </div>
+    </div>
+
+
+    <!-- ! to top  -->
+
+      <a href="#header" class="to-top-btn active-top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+
+    <!-- ! header -->
+
+    <div id="header" class="header section">
+      <div class="header-content container">
+        <div class="header-text">
+          <h1 class="header-tittle"
+          data-aos="fade-up"
+          data-aos-duration="1000">
+            We offer modern solutions for growing your business
+          </h1>
+          <h2 class="header-subtittle"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000">
+            We are team of talented designers making websites with Bootstrap
+          </h2>
+          <button class="btn1 header-btn get-started-btn"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000">
+            Get Started
+            <i class="fas fa-long-arrow-alt-right arrow-icon"></i>
+          </button>
+        </div>
+        <div class="header-img">
+          <img src="./img/hero-img.png" alt="Error" 
+          data-aos="zoom-out"
+          data-aos-duration="1000"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! about -->
+
+    <div id="about" class="about section">
+      <div class="about-content container">
+        <div class="about-texts"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">WHO WE ARE</h3>
+          <h2 class="tittle-h2">
+            Expedita voluptas omnis cupiditate totam eveniet nobis sint iste.
+            Dolores est repellat corrupti reprehenderit.
+          </h2>
+          <p class="opensans">
+            Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et.
+            Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam
+            nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+          </p>
+          <button class="btn1">
+            Read more
+            <i class="fas fa-long-arrow-alt-right arrow-icon"></i>
+          </button>
+        </div>
+        <div class="about-img">
+          <img src="./img/about.jpg" alt="about.jpg" 
+          data-aos="zoom-out"
+          data-aos-duration="1000"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! our values -->
+
+    <div class="our-values">
+      <div class="our-values-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500"
+        >
+          <h3 class="subtittle">OUR VALUES</h3>
+          <h1 class="tittle">Odit est perspiciatis laborum et dicta</h1>
+        </div>
+        <div class="our-values-box-container">
+          <div class="our-values-box"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+          >
+            <img src="./img/values-1.png" alt="Value image" />
+            <h2 class="tittle-h2">Ad cupiditate sed est odio</h2>
+            <p class="opensans">
+              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
+              sit. Et veritatis id.
+            </p>
+          </div>
+          <div class="our-values-box"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200">
+            <img src="./img/values-2.png" alt="Value image" />
+            <h2 class="tittle-h2">Voluptatem voluptatum alias</h2>
+            <p class="opensans">
+              Repudiandae amet nihil natus in distinctio suscipit id. Doloremque
+              ducimus ea sit non.
+            </p>
+          </div>
+          <div class="our-values-box"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200"
+          >
+            <img src="./img/values-3.png" alt="Value image" />
+            <h2 class="tittle-h2">Fugit cupiditate alias nobis.</h2>
+            <p class="opensans">
+              Quam rem vitae est autem molestias explicabo debitis sint. Vero
+              aliquid quidem commodi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! counts -->
+
+    <div class="counts"
+    data-aos="fade-up"
+    data-aos-duration="500">
+      <div class="counts-content container">
+        <div class="counts-box-container">
+          <div class="counts-box">
+            <i class="far fa-smile smile-icon"></i>
+            <p>
+              <span class="tittle counts-num" data-num="232">232</span><br />
+              <span class="opensans">Happy Clients</span>
+            </p>
+          </div>
+          <div class="counts-box">
+            <i class="fas fa-book book-icon"></i>
+            <p>
+              <span class="tittle counts-num" data-num="521">521</span><br />
+              <span class="opensans">Projects</span>
+            </p>
+          </div>
+          <div class="counts-box">
+            <i class="fas fa-headphones-alt headphone-icon"></i>
+            <p>
+              <span class="tittle counts-num" data-num="1463">1463</span><br />
+              <span class="opensans">Hours Of Support</span>
+            </p>
+          </div>
+          <div class="counts-box">
+            <i class="fas fa-user-friends users-icon"></i>
+            <p>
+              <span class="tittle counts-num" data-num="15">15</span><br />
+              <span class="opensans">Hard Workers</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! features -->
+
+    <div class="features">
+      <div class="features-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">FEATURES</h3>
+          <h1 class="tittle">Laboriosam et omnis fuga quis dolor direda fara</h1>
+        </div>
+        <div class="features-container">
+          <div class="features-img"
+          data-aos="fade-up"
+          data-aos-duration="500">
+            <img src="./img/features.png" alt="features.png" />
+          </div>
+          <div class="features-box-container">
+            <div class="features-box"
+            data-aos="zoom-out"
+            data-aos-delay="100">
+              <i class="fas fa-check"></i>
+              <h3 class="blue-text">Eos aspernatur rem</h3>
+            </div>
+            <div class="features-box"
+            data-aos="zoom-out"
+            data-aos-delay="200">
+              <i class="fas fa-check"></i>
+              <h3 class="blue-text">Facilis neque ipsa</h3>
+            </div>
+            <div class="features-box"
+            data-aos="zoom-out"
+            data-aos-delay="300">
+              <i class="fas fa-check"></i>
+              <h3 class="blue-text">Volup amet voluptas</h3>
+            </div>
+            <div class="features-box"
+            data-aos="zoom-out"
+            data-aos-delay="400">
+              <i class="fas fa-check"></i>
+              <h3 class="blue-text">Rerum omnis sint</h3>
+            </div>
+            <div class="features-box"
+            data-aos="zoom-out"
+            data-aos-delay="500">
+              <i class="fas fa-check"></i>
+              <h3 class="blue-text">Alias possimus</h3>
+            </div>
+            <div class="features-box"
+            data-aos="zoom-out"
+            data-aos-delay="600">
+              <i class="fas fa-check"></i>
+              <h3 class="blue-text">Repellendus mollitia</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! future-tabs-->
+
+    <div class="future-tabs"
+    data-aos="fade-up"
+    data-aos-duration="500">
+      <div class="future-tabs-content container">
+        <div class="future-tabs-container">
+          <div class="future-tabs-texts-container">
+            <h3 class="tittle-h3">
+              Neque officiis dolore maiores et exercitationem quae est seda
+              lidera pat claero
+            </h3>
+            <div class="future-tabs-nav">
+              <a 
+              href="#" 
+              class="future-tabs-btn future-tabs-btn-active"
+              data-tab="1"
+              >SAEPE FUGA</a>
+              <a 
+              href="#"
+              class="future-tabs-btn"
+              data-tab="2"
+              >VOLUPTATES </a>
+              <a
+               href="#"
+               class="future-tabs-btn"
+               data-tab="3"
+               > CORRUPTI</a>
+            </div>
+            <div class="future-tabs-texts future-tabs-texts-1 future-tabs-active">
+              <p class="opensans">
+                Consequuntur inventore voluptates consequatur aut vel et. Eos
+                doloribus expedita. Sapiente atque consequatur minima nihil quae
+                aspernatur quo suscipit voluptatem.
+              </p>
+
+              <p>
+                <span class="checked-icon"><i class="fas fa-check"></i></span>
+                <span class="blue-text"
+                  >Repudiandae rerum velit modi et officia quasi facilis</span
+                >
+              </p>
+              <p class="opensans">
+                Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
+                Sapiente minima commodi dolorum non eveniet magni quaerat nemo
+                et.
+              </p>
+              <p>
+                <span class="checked-icon"><i class="fas fa-check"></i></span>
+                <span class="blue-text"
+                  >Incidunt non veritatis illum ea ut nisi</span
+                >
+              </p>
+              <p class="opensans">
+                Non quod totam minus repellendus autem sint velit. Rerum debitis
+                facere soluta tenetur. Iure molestiae assumenda sunt qui
+                inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia
+                et perferendis.
+              </p>
+            </div>
+            <div class="future-tabs-texts future-tabs-texts-2 ">
+              <p class="opensans">
+                Consequuntur inventore voluptates consequatur aut vel et. Eos
+                doloribus expedita. Sapiente atque consequatur minima nihil quae
+                aspernatur quo suscipit voluptatem.
+              </p>
+
+              <p>
+                <span class="checked-icon"><i class="fas fa-check"></i></span>
+                <span class="blue-text"
+                  >Repudiandae rerum velit modi et officia quasi facilis</span
+                >
+              </p>
+              <p class="opensans">
+                Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
+                Sapiente minima commodi dolorum non eveniet magni quaerat nemo
+                et.
+              </p>
+              <p>
+                <span class="checked-icon"><i class="fas fa-check"></i></span>
+                <span class="blue-text"
+                  >Incidunt non veritatis illum ea ut nisi</span
+                >
+              </p>
+              <p class="opensans">
+                Non quod totam minus repellendus autem sint velit. Rerum debitis
+                facere soluta tenetur. Iure molestiae assumenda sunt qui
+                inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia
+                et perferendis.
+              </p>
+            </div>
+            <div class="future-tabs-texts future-tabs-texts-3 ">
+              <p class="opensans">
+                Consequuntur inventore voluptates consequatur aut vel et. Eos
+                doloribus expedita. Sapiente atque consequatur minima nihil quae
+                aspernatur quo suscipit voluptatem.
+              </p>
+
+              <p>
+                <span class="checked-icon"><i class="fas fa-check"></i></span>
+                <span class="blue-text"
+                  >Repudiandae rerum velit modi et officia quasi facilis</span
+                >
+              </p>
+              <p class="opensans">
+                Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
+                Sapiente minima commodi dolorum non eveniet magni quaerat nemo
+                et.
+              </p>
+              <p>
+                <span class="checked-icon"><i class="fas fa-check"></i></span>
+                <span class="blue-text"
+                  >Incidunt non veritatis illum ea ut nisi</span
+                >
+              </p>
+              <p class="opensans">
+                Non quod totam minus repellendus autem sint velit. Rerum debitis
+                facere soluta tenetur. Iure molestiae assumenda sunt qui
+                inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia
+                et perferendis.
+              </p>
+            </div>
+
+          </div>
+          <div class="future-tabs-img">
+            <img src="./img/features-2.png" alt="features-2.png" />
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- ! future icons -->
+
+    <div class="future-icons">
+      <div class="future-icons-content container">
+        <h3 class="tittle-h3"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          Ratione mollitia eos ab laudantium rerum beatae quo
+        </h3>
+        <div class="future-icons-container">
+          <div class="future-icons-img"
+          data-aos="fade-right"
+          data-aos-duration="500">
+            <img src="./img/features-3.png" alt="features-3.png" />
+          </div>
+          <div class="future-icons-texts">
+            <div class="future-icons-texts-box"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            >
+              <i class="fas fa-chart-line"></i>
+              <p>
+                <span class="blue-text">Corporis voluptates sit</span>
+                <br /><br />
+                <span class="opensans"
+                  >Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                  laboris nisi ut aliquip</span
+                >
+              </p>
+            </div>
+            <div class="future-icons-texts-box"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            data-aos-delay="100">
+              <i class="fas fa-layer-group"></i>
+              <p>
+                <span class="blue-text">Ullamco laboris nisi</span>
+                <br /><br />
+                <span class="opensans"
+                  >Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt</span
+                >
+              </p>
+            </div>
+            <div class="future-icons-texts-box"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            data-aos-delay="200">
+              <i class="fas fa-brush"></i>
+              <p>
+                <span class="blue-text">Labore consequatur</span>
+                <br /><br />
+                <span class="opensans"
+                  >Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
+                  maiores omnis facere</span
+                >
+              </p>
+            </div>
+            <div class="future-icons-texts-box"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            data-aos-delay="300">
+              <i class="fas fa-magic"></i>
+              <p>
+                <span class="blue-text">Beatae veritatis</span>
+                <br /><br />
+                <span class="opensans"
+                  >Expedita veritatis consequuntur nihil tempore laudantium
+                  vitae denat pacta</span
+                >
+              </p>
+            </div>
+            <div class="future-icons-texts-box"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            data-aos-delay="400">
+              <i class="fas fa-terminal"></i>
+              <p>
+                <span class="blue-text">Molestiae dolor</span>
+                <br /><br />
+                <span class="opensans"
+                  >Et fuga et deserunt et enim. Dolorem architecto ratione tensa
+                  raptor marte
+                </span>
+              </p>
+            </div>
+            <div class="future-icons-texts-box"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            data-aos-delay="500">
+              <i class="fas fa-broadcast-tower"></i>
+              <p>
+                <span class="blue-text">Explicabo consectetur</span>
+                <br /><br />
+                <span class="opensans"
+                  >Est autem dicta beatae suscipit. Sint veritatis et sit quasi
+                  ab aut inventore</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! services -->
+
+    <div id="services" class="services section">
+      <div class="service-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">SERVICES</h3>
+          <h1 class="tittle">
+            Veritatis et dolores facere numquam et praesentium
+          </h1>
+        </div>
+        <div class="services-box-container">
+          <div class="services-box services-blue"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100">
+            <i class="far fa-comment-alt"></i>
+            <h3>Nesciunt Mete</h3>
+            <p class="opensans">
+              Provident nihil minus qui consequatur non omnis maiores. Eos
+              accusantium minus dolores iure perferendis tempore et consequatur.
+            </p>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+          <div class="services-box services-orange"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200">
+            <i class="far fa-comment-alt"></i>
+            <h3>Eosle Commodi</h3>
+            <p class="opensans">
+              Ut autem aut autem non a. Sint sint sit facilis nam iusto sint.
+              Libero corrupti neque eum hic non ut nesciunt dolorem.
+            </p>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+          <div class="services-box services-green"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="300">
+            <i class="far fa-comment-alt"></i>
+            <h3>Ledo Markt</h3>
+            <p class="opensans">
+              Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus
+              ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+            </p>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+          <div class="services-box services-red"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100">
+            <i class="far fa-comment-alt"></i>
+            <h3>Asperiores Commodi</h3>
+            <p class="opensans">
+              Non et temporibus minus omnis sed dolor esse consequatur.
+              Cupiditate sed error ea fuga sit provident adipisci neque.
+            </p>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+          <div class="services-box services-purple"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200">
+            <i class="far fa-comment-alt"></i>
+            <h3>Velit Doloremque.</h3>
+            <p class="opensans">
+              Cumque et suscipit saepe. Est maiores autem enim facilis ut aut
+              ipsam corporis aut. Sed animi at autem alias eius labore.
+            </p>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+          <div class="services-box services-pink"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="300">
+            <i class="far fa-comment-alt"></i>
+            <h3>Dolori Architecto</h3>
+            <p class="opensans">
+              Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque
+              non et debitis iure. Corrupti recusandae ducimus enim.
+            </p>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! pricing -->
+
+    <div class="pricing">
+      <div class="pricing-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">PRICING</h3>
+          <h1 class="tittle">Check our Pricing</h1>
+        </div>
+        <div class="pricing-box-container"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <div class="pricing-box">
+            <h3 class="pricing-box-blue">Free Plan</h3>
+            <p class="price-text">
+              <span class="price-num"> <sup>$ </sup>0 </span>
+              <span class="grey">/ mo</span>
+            </p>
+            <img src="./img/pricing-free.png" alt="" />
+            <p class="opensans">Aida dere</p>
+            <p class="opensans">Nec feugiat nisl</p>
+            <p class="opensans">Nulla at volutpat dola</p>
+            <p class="opensans line-trough">Pharetra massa</p>
+            <p class="opensans line-trough">Massa ultricies mi</p>
+            <button class="btn-2">Buy Now</button>
+          </div>
+          <div class="pricing-box">
+            <span class="featured">Featured</span>
+            <h3 class="pricing-box-green">Starter Plan</h3>
+            <p class="price-text">
+              <span class="price-num"> <sup>$ </sup>19 </span>
+              <span class="grey">/ mo</span>
+            </p>
+            <img src="./img/pricing-free.png" alt="" />
+            <p class="opensans">Aida dere</p>
+            <p class="opensans">Nec feugiat nisl</p>
+            <p class="opensans">Nulla at volutpat dola</p>
+            <p class="opensans">Pharetra massa</p>
+            <p class="opensans line-trough">Massa ultricies mi</p>
+            <button class="btn-2">Buy Now</button>
+          </div>
+          <div class="pricing-box">
+            <h3 class="pricing-box-orange">Business Plan</h3>
+            <p class="price-text">
+              <span class="price-num"> <sup>$ </sup>29 </span>
+              <span class="grey">/ mo</span>
+            </p>
+            <img src="./img/pricing-free.png" alt="" />
+            <p class="opensans">Aida dere</p>
+            <p class="opensans">Nec feugiat nisl</p>
+            <p class="opensans">Nulla at volutpat dola</p>
+            <p class="opensans">Pharetra massa</p>
+            <p class="opensans">Massa ultricies mi</p>
+            <button class="btn-2">Buy Now</button>
+          </div>
+          <div class="pricing-box">
+            <h3 class="pricing-box-pink">Ultimate Plan</h3>
+            <p class="price-text">
+              <span class="price-num"> <sup>$ </sup>49 </span>
+              <span class="grey">/ mo</span>
+            </p>
+            <img src="./img/pricing-free.png" alt="" />
+            <p class="opensans">Aida dere</p>
+            <p class="opensans">Nec feugiat nisl</p>
+            <p class="opensans">Nulla at volutpat dola</p>
+            <p class="opensans">Pharetra massa</p>
+            <p class="opensans">Massa ultricies mi</p>
+            <button class="btn-2">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! faq -->
+
+    <div class="faq"
+    data-aos="fade-up"
+    data-aos-duration="500">
+      <div class="faq-content container">
+        <div class="tittle-div">
+          <h3 class="subtittle">F.A.Q</h3>
+          <h1 class="tittle">Frequently Asked Questions</h1>
+        </div>
+        <div class="faq-texts">
+          <div class="faq-texts-line">
+            <div class="faq-texts-content">
+              <p class="opensans bold faq-question ">
+                <a href="#">Non consectetur a erat nam at lectus urna duis?</a>
+                <i class="fas fa-chevron-down"></i>
+              </p>
+              <p class="opensans faq-answer  hidden-answer">
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+            <div class="faq-texts-content">
+              <p class="opensans bold faq-question">
+                <a href="#"
+                  >Feugiat scelerisque varius morbi enim nunc faucibus a
+                  pellentesque?</a
+                >
+                <i class="fas fa-chevron-down"></i>
+              </p>
+              <p class="opensans faq-answer  hidden-answer">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+            <div class="faq-texts-content">
+              <p class="opensans bold faq-question">
+                <a href="#"
+                  >Dolor sit amet consectetur adipiscing elit pellentesque
+                  habitant morbi?</a
+                >
+                <i class="fas fa-chevron-down"></i>
+              </p>
+              <p class="opensans faq-answer  hidden-answer">
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                tellus. Urna molestie at elementum eu facilisis sed odio morbi
+                quis
+              </p>
+            </div>
+          </div>
+          <div class="faq-texts-line">
+            <div class="faq-texts-content">
+              <p class="opensans bold faq-question">
+                <a href="#"
+                  >Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</a
+                >
+                <i class="fas fa-chevron-down"></i>
+              </p>
+              <p class="opensans faq-answer  hidden-answer">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+            <div class="faq-texts-content">
+              <p class="opensans bold faq-question">
+                <a href="#"
+                  >Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat?</a
+                >
+                <i class="fas fa-chevron-down"></i>
+              </p>
+              <p class="opensans faq-answer  hidden-answer">
+                Molestie a iaculis at erat pellentesque adipiscing commodo.
+                Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+            <div class="faq-texts-content">
+              <p class="opensans bold faq-question">
+                <a href="#"
+                  >Varius vel pharetra vel turpis nunc eget lorem dolor?</a
+                >
+                <i class="fas fa-chevron-down"></i>
+              </p>
+              <p class="opensans faq-answer  hidden-answer">
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
+                vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
+                nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed.
+                Ut venenatis tellus in metus vulputate eu scelerisque.
+                Pellentesque diam volutpat commodo sed egestas egestas fringilla
+                phasellus faucibus. Nibh tellus molestie nunc non blandit massa
+                enim nec.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! portfolio -->
+
+    <div id="portfolio" class="portfolio section">
+      <div class="portfolio-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">PORTFOLIO</h3>
+          <h1 class="tittle">Check our latest work</h1>
+        </div>
+        <nav class="portfolio-nav"
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="100">
+          <a href="#" class="active portfolio-link">All</a>
+          <a href="#" class="portfolio-link">App</a>
+          <a href="#" class="portfolio-link">Card</a>
+          <a href="#" class="portfolio-link">Web</a>
+        </nav>
+        <div class="portfolio-box-container"
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="300">
+          <div class="portfolio-box"
+          data-type="App All"
+          >
+            <img src="./img/portfolio-1.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">App 1</p>
+              <p class="blue-light-text">APP</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="Web All"
+          >
+            <img src="./img/portfolio-2.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">Web 3</p>
+              <p class="blue-light-text">WEB</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="App All"
+          >
+            <img src="./img/portfolio-3.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">App 2</p>
+              <p class="blue-light-text">APP</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+            <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="Card All"
+          >
+            <img src="./img/portfolio-4.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">Card 2</p>
+              <p class="blue-light-text">CARD</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="Web All"
+          >
+            <img src="./img/portfolio-5.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">Web 2</p>
+              <p class="blue-light-text">WEB</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="App All"
+          >
+            <img src="./img/portfolio-6.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">App 3</p>
+              <p class="blue-light-text">APP</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="Card All"
+          >
+            <img src="./img/portfolio-7.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">Card 1</p>
+              <p class="blue-light-text">CARD</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="Card All"
+          >
+            <img src="./img/portfolio-8.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">Card 3</p>
+              <p class="blue-light-text">CARD</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+          <div class="portfolio-box"
+          data-type="Web All"
+          >
+            <img src="./img/portfolio-9.jpg" alt="Portfolio" />
+            <div class="portfolio-box-overlay">
+              <p class="blue-text">Web 3</p>
+              <p class="blue-light-text">WEB</p>
+              <div class="overlay-icons">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="corner-top"></div>
+              <div class="corner-bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! testimonals -->
+
+    <div class="testimonals">
+      <div class="testimonals-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">TESTIMONIALS</h3>
+          <h1 class="tittle">What they are saying about us</h1>
+        </div>
+        <div class="testimonals-slider-container swiper-container"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          
+          <div class="testimonals-slider swiper-wrapper">
+            <div class="testimonals-slide slide-1 swiper-slide " >
+              <div class="testimonals-slide-content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="opensans italic">
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                  entum suscipit rhoncus. Accusantium quam, ultricies eget id,
+                  aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+                <div class="testimonals-people">
+                <img src="./img/testimonials-1.jpg" alt="testimonals image" />
+                <p class="opensans bold faq-question">Saul Goodman</p>
+                <p class="opensans grey">Ceo & Founder</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonals-slide slide-2 swiper-slide">
+              <div class="testimonals-slide-content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="opensans italic">
+                  Export tempor illum tamen malis malis eram quae irure esse labore
+                  quem cillum quid cillum eram malis quorum velit fore eram velit
+                  sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+                <div class="testimonals-people">
+                  <img src="./img/testimonials-2.jpg" alt="testimonals image" />
+                  <p class="opensans bold faq-question">Sara Wilsson</p>
+                  <p class="opensans grey">Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonals-slide slide-3 swiper-slide">
+              <div class="testimonals-slide-content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="opensans italic">
+                  Enim nisi quem export duis labore cillum quae magna enim sint
+                  quorum nulla quem veniam duis minim tempor labore quem eram duis
+                  noster aute amet eram fore quis sint minim.
+                </p>
+                <div class="testimonals-people">
+                  <img src="./img/testimonials-3.jpg" alt="testimonals image" />
+                  <p class="opensans bold faq-question">Jena Karlis</p>
+                  <p class="opensans grey">Store Owner</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonals-slide slide-4 swiper-slide">
+              <div class="testimonals-slide-content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="opensans italic">
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                  export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                  anim magna sunt elit fore quem dolore labore illum veniam.
+                </p>
+                <div class="testimonals-people">
+                  <img src="./img/testimonials-4.jpg" alt="testimonals image" />
+                  <p class="opensans bold faq-question">Matt Brandon</p>
+                  <p class="opensans grey">Freelancer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonals-slide slide-5 swiper-slide">
+              <div class="testimonals-slide-content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="opensans italic">
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                  veniam tempor noster veniam enim culpa labore duis sunt culpa
+                  nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+                  quid.
+                </p>
+                <div class="testimonals-people">
+                  <img src="./img/testimonials-5.jpg" alt="testimonals image" />
+                  <p class="opensans bold faq-question">John Larson</p>
+                  <p class="opensans grey">Entrepreneur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="dots testimonal-dots">
+          
+        </div>
+    </div>
+
+    <!--! team -->
+
+    <div id="team" class="team section">
+      <div class="team-content container">
+        <div class="tittle-div"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <h3 class="subtittle">Team</h3>
+          <h1 class="tittle">Our hard working team</h1>
+        </div>
+        <div class="team-box-container"
+        data-aos="fade-up"
+        data-aos-duration="500">
+          <div class="team-box">
+            <div class="team-box-img">
+              <img src="./img/team-1.jpg" alt="Team" />
+              <img src="./img/download.svg" alt="" class="under-img" />
+              <div class="team-box-overlay">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="team-box-texts">
+              <p class="blue-text">Walter White</p>
+              <p class="grey">Chief Executive Officer</p>
+              <p class="opensans italic">
+                Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                corporis et voluptate.
+              </p>
+            </div>
+          </div>
+
+          <div class="team-box">
+            <div class="team-box-img">
+              <img src="./img/team-2.jpg" alt="Team" />
+              <img src="./img/download.svg" alt="" class="under-img" />
+              <div class="team-box-overlay">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="team-box-texts">
+              <p class="blue-text">Sarah Jhonson</p>
+              <p class="grey">Product Manager</p>
+              <p class="opensans italic">
+                Quo esse repellendus quia id. Est eum et accusantium pariatur
+                fugit nihil minima suscipit corporis. Voluptate sed quas
+                reiciendis animi neque sapiente.
+              </p>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-box-img">
+              <img src="./img/team-3.jpg" alt="Team" />
+              <img src="./img/download.svg" alt="" class="under-img" />
+              <div class="team-box-overlay">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="team-box-texts">
+              <p class="blue-text">William Anderson</p>
+              <p class="grey">CTO</p>
+              <p class="opensans italic">
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+          </div>
+          <div class="team-box">
+            <div class="team-box-img">
+              <img src="./img/team-4.jpg" alt="Team" />
+              <img src="./img/download.svg" alt="" class="under-img" />
+              <div class="team-box-overlay">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="team-box-texts">
+              <p class="blue-text">Amanda Jepson</p>
+              <p class="grey">Accountant</p>
+              <p class="opensans italic">
+                Rerum voluptate non adipisci animi distinctio et deserunt amet
+                voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! our clients -->
+
+    <div class="our-clients"
+    data-aos="fade-up"
+    data-aos-duration="500">
+      <div class="our-clients-content container">
+        <div class="tittle-div">
+          <h3 class="subtittle">OUR CLIENTS</h3>
+          <h1 class="tittle">Temporibus omnis officia</h1>
+        </div>
+        <div class="our-clients-slider-container swiper-container">
+          <div class="our-clients-slider swiper-wrapper">
+            <div class="slide swiper-slide">
+              <img src="./img/client-1.png" alt="Our Clients" />
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./img/client-2.png" alt="Our Clients" />
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./img/client-3.png" alt="Our Clients" />
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./img/client-4.png" alt="Our Clients" />
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./img/client-5.png" alt="Our Clients" />
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./img/client-6.png" alt="Our Clients" />
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- ! blog -->
+
+    <div id="blog" class="blog section "
+    data-aos="fade-up"
+    data-aos-duration="500">
+      <div class="blog-content container">
+        <div class="tittle-div">
+          <h3 class="subtittle">BLOG</h3>
+          <h1 class="tittle">Recent posts form our Blog</h1>
+        </div>
+        <div class="blog-box-container">
+          <div class="blog-box">
+            <div class="blog-box-img">
+              <img src="./img/blog-1.jpg" alt="blog image" />
+            </div>
+            <div class="blog-box-texts">
+              <p class="opensans">Tue, September 15</p>
+              <h2 class="tittle-h2">
+                Eum ad dolor et. Autem aut fugiat debitis voluptatem
+                consequuntur sit
+              </h2>
+            </div>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="blog-box">
+            <div class="blog-box-img">
+              <img src="./img/blog-2.jpg" alt="blog image" />
+            </div>
+            <div class="blog-box-texts">
+              <p class="opensans">Fri, August 28</p>
+              <h2 class="tittle-h2">
+                Et repellendus molestiae qui est sed omnis voluptates magnam
+              </h2>
+            </div>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="blog-box">
+            <div class="blog-box-img">
+              <img src="./img/blog-3.jpg" alt="blog image" />
+            </div>
+            <div class="blog-box-texts">
+              <p class="opensans">Mon, July 11</p>
+              <h2 class="tittle-h2">
+                Quia assumenda est et veritatis aut quae
+              </h2>
+            </div>
+            <a href="#" class="read-more-btn"
+              >Read More
+              <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! contact -->
+
+    <div id="contact" class="contact section"
+    data-aos="fade-up"
+    data-aos-duration="500">
+      <div class="contact-content container">
+        <div class="tittle-div">
+          <h3 class="subtittle">CONTACT</h3>
+          <h1 class="tittle">Contact Us</h1>
+        </div>
+        <div class="contact-container">
+          <div class="contact-box-container">
+            <div class="contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p class="blue-text">Address</p>
+              <p class="opensans">A108 Adam Street,</p>
+              <p class="opensans">New York, NY 535022</p>
+            </div>
+            <div class="contact-box">
+              <i class="fas fa-phone"></i>
+              <p class="blue-text">Call Us</p>
+              <p class="opensans">+1 5589 55488 55</p>
+              <p class="opensans">+1 6678 254445 41</p>
+            </div>
+            <div class="contact-box">
+              <i class="far fa-envelope"></i>
+              <p class="blue-text">Email Us</p>
+              <p class="opensans">info@example.com</p>
+              <p class="opensans">contact@example.com</p>
+            </div>
+            <div class="contact-box">
+              <i class="far fa-clock"></i>
+              <p class="blue-text">Open Hours</p>
+              <p class="opensans">Monday - Friday</p>
+              <p class="opensans">9:00AM - 05:00PM</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="">
+              <p>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="Your Email" />
+              </p>
+              <input type="text" placeholder="Subject" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button class="btn-3">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! our newslater -->
+
+    <div class="newslater">
+      <div class="newslater-content container">
+        <p class="blue-text">Our Newsletter</p>
+        <p class="opensans">
+          Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+        </p>
+        <form action="">
+          <input type="text" />
+          <button class="btn-3">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ! footer -->
+
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="footer-texts footer-logos">
+          <div class="logo-div">
+            <img src="./img/logo.png" alt="Logo" />
+            <a href="index.html">FlexStart</a>
+          </div>
+          <p class="opensans">
+            Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada
+            terra videa magna derita valies darta donna mare fermentum iaculis
+            eu non diam phasellus.
+          </p>
+          <div class="icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-texts footer-links">
+          <p class="blue-text">USEFUL LINKS</p>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Home
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            About us
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Services
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Terms of service
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Privacy policy
+          </a>
+        </div>
+        <div class="footer-texts footer-links">
+          <p class="blue-text">OUR SERVICES</p>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Web Design
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Web Development
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Product Management
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Marketing
+          </a>
+          <a href="#">
+            <i class="fas fa-chevron-right"></i>
+            Graphic Design
+          </a>
+        </div>
+        <div class="footer-texts footer-contact">
+          <p class="blue-text">CONTACT US</p>
+          <p class="opensans">A108 Adam Street</p>
+          <p class="opensans">New York, NY 535022</p>
+          <p class="opensans">United States</p>
+          <br />
+          <p class="opensans"><strong>Phone:</strong>+1 5589 55488 55</p>
+          <p class="opensans"><strong>Email:</strong> info@example.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--! Copyright -->
+
+    <div class="copyright">
+      <p class="blue-text">© Copyright FlexStart. All Rights Reserved</p>
+      <p class="blue-text">
+        Designed by
+        <a href="!"> BootstrapMade</a>
+      </p>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
